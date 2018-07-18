@@ -49,6 +49,7 @@ namespace LabNumber2
 
                 }
 
+
                 bool repeat3 = true;
                 while (repeat3)
                 {
@@ -93,11 +94,12 @@ namespace LabNumber2
                 }
 
                 //Output
-                Console.WriteLine($"Area: {Area(length, width)}");
-                Console.WriteLine($"Perimeter: {Perimeter(length, width)}");
+                Console.WriteLine($"Area: {Area(length, width)}ft.");
+                Console.WriteLine($"Perimeter: {Perimeter(length, width)}ft.");
                 Console.WriteLine($"Volume: {Volume(length, width, height)}");
 
                 bool repeat5 = true;
+
                 while (repeat5)
                 {
                     Console.WriteLine("Continue? (y/n)");
